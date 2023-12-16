@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input::placeholder{
+    font-size: 1.5rem;
+}
+input[type="text"]{
+    font-size: 1.5rem;
+}
+body{
+    background-image: url(/Frontend/img/night1.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content1{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 80px;
+    left: 500px;
+}
+.content1 h1{
+    color: white;
+    font-size: 3rem;
+    /* margin-bottom: 20px; */
+}
+
+.content1 input{
+    width: 80%;
+    border-radius: 15px;
+    margin-top: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+.content1 button{
+    width: 50%;
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+.content1 .option{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+.content1 .option p{
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+.content2{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 80px;
+    left: 500px;
+    display: none;
+}
+.content2 h1{
+    color: white;
+    font-size: 3rem;
+    /* margin-bottom: 20px; */
+}
+
+.content2 input{
+    width: 80%;
+    border-radius: 15px;
+    margin-top: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+.content2 button{
+    width: 50%;
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+.content2 .option{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+.content2 .option p{
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
